@@ -61,8 +61,8 @@ The Deep Self-Learning approach has demonstrated strong performance on noisy-lab
 
 | Dataset     | DSL Accuracy |
 |-------------|---------------|
-| Clothing1M  | ~74.2%        |
-| Food101-N   | ~88.1%        |
+| Clothing1M  | ~57.59%       |
+| Food101-N   | ~89.33%       |
 
 *Note: Results may vary depending on implementation details, batch size, and training duration.*
 
