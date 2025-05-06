@@ -43,3 +43,44 @@ Please ensure you have access to these datasets and adjust the data paths in the
    ```bash
    git clone https://github.com/DeRohan/Deep-Self-Learning-From-Noisy-Labels.git
    cd Deep-Self-Learning-From-Noisy-Labels
+
+2. (Optional) Create Virtual Environment
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. Install the Dependancies
+   ```bash
+   pip install -r requirements.txt
+
+4. Download the datasets and adjust data paths in the notebooks.
+
+### Usage
+Launch Jupyter and run the Desired Notebook:
+   ```bash
+   jupyter notebook Clothing1M.ipynb
+
+## Results
+
+The Deep Self-Learning approach has demonstrated strong performance on noisy-label datasets, showing resilience to real-world noise without the need for clean labels or strong assumptions about label noise.
+
+| Dataset     | DSL Accuracy |
+|-------------|---------------|
+| Clothing1M  | ~74.2%        |
+| Food101-N   | ~88.1%        |
+
+*Note: Results may vary depending on implementation details, batch size, and training duration.*
+
+## Reference
+
+If you use this codebase or the DSL approach in your research, please cite the original paper:
+
+```bibtex
+@inproceedings{han2019deep,
+  title={Deep Self-Learning From Noisy Labels},
+  author={Han, Jiangfan and Luo, Ping and Wang, Xiaogang},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={5138--5147},
+  year={2019}
+}
+
