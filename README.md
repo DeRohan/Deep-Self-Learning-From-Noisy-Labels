@@ -1,0 +1,1 @@
+This repository implements the Deep Self-Learning (DSL) framework for robust image classification in the presence of noisy labels, as proposed by Han et al. in their ICCV 2019 paper: [Deep Self-Learning From Noisy Labels.]([url](https://openaccess.thecvf.com/content_ICCV_2019/papers/Han_Deep_Self-Learning_From_Noisy_Labels_ICCV_2019_paper.pdf))
