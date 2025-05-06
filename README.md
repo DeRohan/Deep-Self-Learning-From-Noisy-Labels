@@ -55,11 +55,6 @@ Please ensure you have access to these datasets and adjust the data paths in the
 
 4. Download the datasets and adjust data paths in the notebooks.
 
-### Usage
-Launch Jupyter and run the Desired Notebook:
-   ```bash
-   jupyter notebook Clothing1M.ipynb
-
 ## Results
 
 The Deep Self-Learning approach has demonstrated strong performance on noisy-label datasets, showing resilience to real-world noise without the need for clean labels or strong assumptions about label noise.
